@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Score Keeper</string>
+    <string name="team_name1">Minnesota Vikings</string>
+    <string name="team_name2">Carolina Panthers</string>
+    <string name="score_team1">0</string>
+    <string name="score_team2">0</string>
+    <string name="touchdown">Touchdown</string>
+    <string name="extra_point">PAT</string>
+    <string name="two_point_conversion">2 point</string>
+    <string name="field_goal">Field goal</string>
+    <string name="safety">Safety</string>
+    <string name="reset">Reset</string>
+</resources>
