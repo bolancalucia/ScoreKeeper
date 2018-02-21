@@ -9,4 +9,31 @@
         <item name="colorButtonNormal">@color/colorBlue</item>
     </style>
 
+    <style name="ButtonsAfterTouchdown">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginBottom">@dimen/margin8</item>
+        <item name="android:layout_marginLeft">@dimen/margin4</item>
+        <item name="android:layout_marginRight">@dimen/margin4</item>
+        <item name="android:layout_marginTop">@dimen/margin8</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="ButtonsOther">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">@dimen/margin8</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="TextViews">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
 </resources>

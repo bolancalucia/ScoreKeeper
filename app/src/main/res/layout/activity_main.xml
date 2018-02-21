@@ -18,31 +18,20 @@
             android:orientation="vertical">
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
+                style="@style/TextViews"
                 android:layout_margin="@dimen/margin8"
-                android:gravity="center"
                 android:text="@string/team_name1"
-                android:textColor="@color/colorBlack"
                 android:textSize="@dimen/textSizeTeam" />
 
             <TextView
                 android:id="@+id/ScoreTeam1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
+                style="@style/TextViews"
                 android:layout_margin="@dimen/margin16"
                 android:text="@string/score_team1"
-                android:textColor="@color/colorBlack"
                 android:textSize="@dimen/textSizeScore" />
 
             <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_margin="@dimen/margin8"
-                android:gravity="center"
+                style="@style/ButtonsOther"
                 android:onClick="addTouchdown_team1"
                 android:text="@string/touchdown" />
 
@@ -56,50 +45,26 @@
 
                 <Button
                     android:id="@+id/pointAfterTouchdown_team1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_marginBottom="@dimen/margin8"
-                    android:layout_marginLeft="@dimen/margin4"
-                    android:layout_marginRight="@dimen/margin4"
-                    android:layout_marginTop="@dimen/margin8"
-                    android:gravity="center"
+                    style="@style/ButtonsAfterTouchdown"
                     android:onClick="addPointAfterTouchdown_team1"
                     android:text="@string/extra_point" />
 
                 <Button
                     android:id="@+id/twoPointConversion_team1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_marginBottom="@dimen/margin8"
-                    android:layout_marginLeft="@dimen/margin4"
-                    android:layout_marginRight="@dimen/margin4"
-                    android:layout_marginTop="@dimen/margin8"
-                    android:gravity="center"
+                    style="@style/ButtonsAfterTouchdown"
                     android:onClick="addTwoPointConversion_team1"
                     android:text="@string/two_point_conversion" />
             </LinearLayout>
 
             <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_margin="@dimen/margin8"
-                android:gravity="center"
+                style="@style/ButtonsOther"
                 android:onClick="addFieldGoal_team1"
                 android:text="@string/field_goal" />
 
             <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_margin="@dimen/margin8"
-                android:gravity="center"
+                style="@style/ButtonsOther"
                 android:onClick="addSafety_team1"
                 android:text="@string/safety" />
-
-
         </LinearLayout>
 
         <View
@@ -115,32 +80,20 @@
             android:orientation="vertical">
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
+                style="@style/TextViews"
                 android:layout_margin="@dimen/margin8"
-                android:gravity="center"
                 android:text="@string/team_name2"
-                android:textColor="@color/colorBlack"
                 android:textSize="@dimen/textSizeTeam" />
 
             <TextView
                 android:id="@+id/ScoreTeam2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
+                style="@style/TextViews"
                 android:layout_margin="@dimen/margin16"
-                android:gravity="center"
                 android:text="@string/score_team2"
-                android:textColor="@color/colorBlack"
                 android:textSize="@dimen/textSizeScore" />
 
             <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_margin="@dimen/margin8"
-                android:gravity="center"
+                style="@style/ButtonsOther"
                 android:onClick="addTouchdown_team2"
                 android:text="@string/touchdown" />
 
@@ -154,52 +107,31 @@
 
                 <Button
                     android:id="@+id/pointAfterTouchdown_team2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_marginBottom="@dimen/margin8"
-                    android:layout_marginLeft="@dimen/margin4"
-                    android:layout_marginRight="@dimen/margin4"
-                    android:layout_marginTop="@dimen/margin8"
-                    android:gravity="center"
+                    style="@style/ButtonsAfterTouchdown"
                     android:onClick="addPointAfterTouchdown_team2"
                     android:text="@string/extra_point" />
 
                 <Button
                     android:id="@+id/twoPointConversion_team2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_marginBottom="@dimen/margin8"
-                    android:layout_marginLeft="@dimen/margin4"
-                    android:layout_marginRight="@dimen/margin4"
-                    android:layout_marginTop="@dimen/margin8"
-                    android:gravity="center"
+                    style="@style/ButtonsAfterTouchdown"
                     android:onClick="addTwoPointConversion_team2"
                     android:text="@string/two_point_conversion" />
             </LinearLayout>
 
             <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_margin="@dimen/margin8"
-                android:gravity="center"
+                style="@style/ButtonsOther"
                 android:onClick="addFieldGoal_team2"
                 android:text="@string/field_goal" />
 
             <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_margin="@dimen/margin8"
-                android:gravity="center"
+                style="@style/ButtonsOther"
                 android:onClick="addSafety_team2"
                 android:text="@string/safety" />
         </LinearLayout>
     </LinearLayout>
 
     <Button
+        android:id="@+id/reset"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
